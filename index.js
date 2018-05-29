@@ -8,6 +8,7 @@ const keys = require('./config/keys');
 
 
 mongoose.connect(keys.mongoURI, {UseMongoClient: true});
+mongoose.set('debug', true);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 

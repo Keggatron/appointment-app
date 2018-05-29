@@ -14,14 +14,14 @@ const appointmentSchema = new Schema ({
   "11:30": [{booked: Boolean, booker: String, phone: String}],
   "12:00": [{booked: Boolean, booker: String, phone: String}],
   "12:30": [{booked: Boolean, booker: String, phone: String}],
-  "13:00": [{booked: Boolean, booker: String, phone: String}],
-  "13:30": [{booked: Boolean, booker: String, phone: String}],
-  "14:00": [{booked: Boolean, booker: String, phone: String}],
-  "14:30": [{booked: Boolean, booker: String, phone: String}],
-  "15:00": [{booked: Boolean, booker: String, phone: String}],
-  "15:30": [{booked: Boolean, booker: String, phone: String}],
-  "16:00": [{booked: Boolean, booker: String, phone: String}],
-  "16:30": [{booked: Boolean, booker: String, phone: String}]
+  "1:00": [{booked: Boolean, booker: String, phone: String}],
+  "1:30": [{booked: Boolean, booker: String, phone: String}],
+  "2:00": [{booked: Boolean, booker: String, phone: String}],
+  "2:30": [{booked: Boolean, booker: String, phone: String}],
+  "3:00": [{booked: Boolean, booker: String, phone: String}],
+  "3:30": [{booked: Boolean, booker: String, phone: String}],
+  "4:00": [{booked: Boolean, booker: String, phone: String}],
+  "4:30": [{booked: Boolean, booker: String, phone: String}]
 })
 
 module.exports = mongoose.model('appointments', appointmentSchema);
